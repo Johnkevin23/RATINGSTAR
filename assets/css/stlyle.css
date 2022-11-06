@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.container {
+    min-height: 100%;
+    background-image: linear-gradient(rgba(50, 51, 58, 0.7), rgba(32, 33, 39, 0.7)),
+    url('../images/download\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ .icon  img{
+    height: 60px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: relative;
+    max-width: 500px;
+    margin: 20px;
+    
+}
+.container {
+   
+    align-items: center;
+    width: 100%;
+    color: rgb(68, 54, 54);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 5%;
+   
+}
+
+
+.footer button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 30%; 
+    border: 2px solid rgb(29, 24, 24);
+    background-color: rgb(240, 225, 14);
+    color: black;
+    padding: 25px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 15px;
+   
+ }         
+.footer {
+   position: relative;
+   top: 40%;
+   left: 45%;
+   transform: translate(-50,-50);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   width: 50px;
+   height: 50px;
+   
+}
+.submit {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left:  30%;
+    margin-top: 35px;
+}
+.submit button{
+    height: 50px;
+    width: 60%;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgba(44, 44, 40, 0.87);
+    background-color: rgba(94, 209, 255, 0.979);
+}
+.submit button:hover{
+    border: 1px solid rgb(88, 247, 40);
+    background: rgb(88, 255, 37);
+    transition: 1s;
+}
+.footer button:hover{
+    border: 1px solid green;
+    background: green;
+    transition: 1s;
+}
