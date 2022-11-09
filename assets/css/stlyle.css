@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0%;
 }
-.container {
-    min-height: 100%;
-    background-image: linear-gradient(rgba(50, 51, 58, 0.7), rgba(32, 33, 39, 0.7)),
-    url('../images/download\ \(1\).jpg');
+ .container {
     background-position: center;
     background-size: cover;
     position: relative;
 }
- .icon  img{
+ 
+    
+.icon  img{
     height: 60px;
     width: 50px;
     justify-content: center;
@@ -18,17 +17,22 @@
     display: relative;
     max-width: 500px;
     margin: 20px;
-    
 }
 .container {
-   
+  
     align-items: center;
     width: 100%;
     color: rgb(68, 54, 54);
     display: flex;
     position: relative;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 10%;
+    border: 2px solid rgb(26, 24, 24);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10%;
    
 }
 
@@ -38,9 +42,9 @@
     height: 30px;
     border: 1px solid;
     border-radius: 30%; 
-    border: 2px solid rgb(29, 24, 24);
-    background-color: rgb(240, 225, 14);
-    color: black;
+    border: 10px solid hwb(64 48% 0% / 0.938);
+    background-color: rgb(238, 238, 24);
+    color: rgb(182, 226, 101);
     padding: 25px 30px;
     font-size: 20px;
     cursor: pointer;
@@ -73,16 +77,16 @@
     width: 60%;
     border-radius: 20px;
     cursor: pointer;
-    color: rgba(44, 44, 40, 0.87);
-    background-color: rgba(94, 209, 255, 0.979);
+    color: rgb(251, 255, 5);
+    background-color: rgba(34, 60, 70, 0.979);
 }
 .submit button:hover{
     border: 1px solid rgb(88, 247, 40);
     background: rgb(88, 255, 37);
-    transition: 1s;
+    transition: 0.5s;
 }
 .footer button:hover{
-    border: 1px solid green;
-    background: green;
-    transition: 1s;
+    border: 1px solid rgb(80, 212, 80);
+    background: rgb(229, 255, 111);
+    transition: 0.5s;
 }
